@@ -1,20 +1,20 @@
 # Files List with responsibilities
 
-1] app.js - To start the server and incude routes
-2] handler.js - Handles logic for returning the payment gateway which is requested in the user input
-3] logger.js - Handles the logging logic
-4] routes.js - The payment endpoints are defined here, "/payment", "reimburse" and "/cancel".
-5] responseMessages.js - Includes the constants which are used in "routes.js"
-6] Directory paymentConfig - Includes the different payment gateway implementation files
+1] app.js - To start the server and incude routes  
+2] handler.js - Handles logic for returning the payment gateway which is requested in the user input  
+3] logger.js - Handles the logging logic  
+4] routes.js - The payment endpoints are defined here, "/payment", "reimburse" and "/cancel".  
+5] responseMessages.js - Includes the constants which are used in "routes.js"  
+6] Directory paymentConfig - Includes the different payment gateway implementation files  
 
 
 # Steps to follow to run the project
 
-1] Download the project on your computer.
-2] Run "npm install"
-3] Run npm start
-4] Add/Update payment related keys in ".env"
-4] Hit the endpoints for "pay", "reimburse" and "cancel" and check endpoint response.
+1] Download the project on your computer.  
+2] Run "npm install"  
+3] Run npm start  
+4] Add/Update payment related keys in ".env"  
+4] Hit the endpoints for "pay", "reimburse" and "cancel" and check endpoint response.  
 
 # How to add new payment gateway provider to the code 
 
@@ -143,8 +143,4 @@
     {
         "data": "payment cancellation success"
     }
-
-
-# Fix Node JS version in package json file
-
     
